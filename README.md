@@ -1,8 +1,10 @@
-<<<<<<< HEAD
-# Simple AWS distributed crawler
+#Simple AWS distributed crawler
 
-Works well now, in process of adding automated setup and shutdown tools.
-=======
-# aws_crawler
-Distributed crawler for AWS EC2
->>>>>>> 051ca66bf984701a7a12a6e692c1cb346eb2598a
+Uses MongoDB for storing data and queuing queries.
+
+Uses Amazon Boto for interfacing with AWS. Uses SQS for passing messages between server and crawler. Uses EC2 instances for server and crawler.
+
+Uses Ubuntu as Linux distro.
+
+Uses Fabric for automated machine setup with Python.
+
